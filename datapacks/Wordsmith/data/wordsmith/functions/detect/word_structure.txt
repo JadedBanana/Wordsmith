@@ -1,0 +1,11 @@
+word/word1: Check to see if word is enabled / decide which type to call for each word (set a scoreboard value if latter)
+			i.e. 'diamond' varies based on the set:
+			blanket - affects all items made of diamonds
+			item - only effects item
+word/word2: Check to see if word has been used
+word/word3: Check to see if word starts with the correct letter
+word/word4: Check to see if word's last letter has words available starting with that letter
+word/word5: Set scoreboard values for this word specifically, start category-specific negative function, schedule next turn 2t
+
+category/word1: Negative function (deletion): Remove word from existence -- if not removed, schedule positive function 1t
+category/word2: Positive function (creation): Bring word into existence

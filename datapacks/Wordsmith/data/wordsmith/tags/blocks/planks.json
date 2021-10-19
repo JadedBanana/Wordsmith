@@ -1,0 +1,13 @@
+{
+    "replace": "false",
+    "values": [
+        "#wordsmith:oak_planks",
+        "#wordsmith:spruce_planks",
+        "#wordsmith:birch_planks",
+        "#wordsmith:jungle_planks",
+        "#wordsmith:acacia_planks",
+        "#wordsmith:dark_oak_planks",
+        "#wordsmith:crimson_planks",
+        "#wordsmith:warped_planks"
+    ]
+}

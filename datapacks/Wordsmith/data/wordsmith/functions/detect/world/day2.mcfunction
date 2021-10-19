@@ -1,0 +1,22 @@
+# Get the current day
+execute store result score #day_query vars run time query day
+scoreboard players set #temp vars 8
+scoreboard players operation #day_query vars %= #temp vars
+
+# Set the time
+execute if score #day_query vars matches 0 if score #time_query vars matches ..1000 run time set 1000
+execute if score #day_query vars matches 0 if score #time_query vars matches 1001.. run time set 25000
+execute if score #day_query vars matches 1 if score #time_query vars matches ..1000 run time set 25000
+execute if score #day_query vars matches 1 if score #time_query vars matches 1001.. run time set 49000
+execute if score #day_query vars matches 2 if score #time_query vars matches ..1000 run time set 49000
+execute if score #day_query vars matches 2 if score #time_query vars matches 1001.. run time set 73000
+execute if score #day_query vars matches 3 if score #time_query vars matches ..1000 run time set 73000
+execute if score #day_query vars matches 3 if score #time_query vars matches 1001.. run time set 97000
+execute if score #day_query vars matches 4 if score #time_query vars matches ..1000 run time set 97000
+execute if score #day_query vars matches 4 if score #time_query vars matches 1001.. run time set 121000
+execute if score #day_query vars matches 5 if score #time_query vars matches ..1000 run time set 121000
+execute if score #day_query vars matches 5 if score #time_query vars matches 1001.. run time set 145000
+execute if score #day_query vars matches 6 if score #time_query vars matches ..1000 run time set 145000
+execute if score #day_query vars matches 6 if score #time_query vars matches 1001.. run time set 169000
+execute if score #day_query vars matches 7 if score #time_query vars matches ..1000 run time set 169000
+execute if score #day_query vars matches 7 if score #time_query vars matches 1001.. run time set 1000
