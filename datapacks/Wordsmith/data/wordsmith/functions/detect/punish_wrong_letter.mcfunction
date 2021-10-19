@@ -1,1 +1,0 @@
-tellraw @s {"text":"That word starts with the wrong letter!","color":"light_purple"}

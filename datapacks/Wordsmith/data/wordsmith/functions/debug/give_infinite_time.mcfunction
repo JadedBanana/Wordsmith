@@ -1,1 +1,0 @@
-scoreboard players set #turn_time vars 999999999

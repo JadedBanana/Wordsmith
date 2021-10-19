@@ -1,11 +1,13 @@
 # Machine-specific data
-/advancements/
-/playerdata/
-/serverconfig/
-/stats/
+/advancements
+/playerdata
+/serverconfig
+/stats
+
 
 # Non-spawn region files
-/region/r.[!3].[!0]
-/region/r.[!3].[!-1]
-/region/r.[!4].[!0]
-/region/r.[!4].[!-1]
+*.mca
+!/region/r.3.0.mca
+!/region/r.3.-1.mca
+!/region/r.4.0.mca
+!/region/r.4.-1.mca

@@ -1,2 +1,0 @@
-execute as @e[type=armor_stand,tag=permutation_manager] run function jrng:roll
-execute if score #permutation_prev vars = @e[type=armor_stand,tag=permutation_manager,limit=1] jrngResult run function wordsmith:start/start7a_roll

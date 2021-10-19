@@ -1,1 +1,0 @@
-tellraw @s {"text":"That word is disabled.","color":"light_purple"}
