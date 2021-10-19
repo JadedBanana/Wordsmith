@@ -1,0 +1,1 @@
+tellraw @s {"text":"That word ends with a letter that has no words left for it!","color":"light_purple"}

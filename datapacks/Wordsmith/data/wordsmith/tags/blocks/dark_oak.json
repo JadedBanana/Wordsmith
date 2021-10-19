@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:dark_oak_sapling",
+		"minecraft:dark_oak_door",
+		"minecraft:dark_oak_trapdoor",
+		"minecraft:dark_oak_leaves",
+		"#wordsmith:dark_oak_planks",
+		"#wordsmith:dark_oak_log",
+		"#wordsmith:dark_oak_wood"
+	]
+}

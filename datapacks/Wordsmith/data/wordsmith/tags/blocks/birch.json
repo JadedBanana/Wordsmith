@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:birch_sapling",
+		"minecraft:birch_door",
+		"minecraft:birch_trapdoor",
+		"minecraft:birch_leaves",
+		"#wordsmith:birch_planks",
+		"#wordsmith:birch_log",
+		"#wordsmith:birch_wood"
+	]
+}

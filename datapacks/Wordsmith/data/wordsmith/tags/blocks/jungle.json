@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:jungle_sapling",
+		"minecraft:jungle_door",
+		"minecraft:jungle_trapdoor",
+		"minecraft:jungle_leaves",
+		"#wordsmith:jungle_planks",
+		"#wordsmith:jungle_log",
+		"#wordsmith:jungle_wood"
+	]
+}

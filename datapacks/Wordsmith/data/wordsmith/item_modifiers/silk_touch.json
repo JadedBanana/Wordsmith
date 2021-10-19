@@ -1,0 +1,6 @@
+{
+"function": "minecraft:set_enchantments",
+  "enchantments": {
+    "minecraft:silk_touch": -255
+  }
+}

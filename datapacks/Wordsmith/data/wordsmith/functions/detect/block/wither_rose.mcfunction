@@ -1,0 +1,40 @@
+# Attempt to fill / kill / clear in block
+execute store result score #blocks_killed1 vars run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:wither_rose"}}]
+execute store result score #blocks_killed2 vars run kill @e[type=minecraft:falling_block,nbt={BlockState:{Name:"minecraft:wither_rose"}}]
+execute store result score #blocks_replaced1 vars run fill ~-22 0 ~-22 ~22 15 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced2 vars run fill ~-22 16 ~-22 ~22 31 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced3 vars run fill ~-22 32 ~-22 ~22 47 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced4 vars run fill ~-22 48 ~-22 ~22 63 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced5 vars run fill ~-22 64 ~-22 ~22 79 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced6 vars run fill ~-22 80 ~-22 ~22 95 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced7 vars run fill ~-22 96 ~-22 ~22 111 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced8 vars run fill ~-22 112 ~-22 ~22 127 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced9 vars run fill ~-22 128 ~-22 ~22 143 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced10 vars run fill ~-22 144 ~-22 ~22 159 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced11 vars run fill ~-22 160 ~-22 ~22 175 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced12 vars run fill ~-22 176 ~-22 ~22 191 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced13 vars run fill ~-22 192 ~-22 ~22 207 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced14 vars run fill ~-22 208 ~-22 ~22 223 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced15 vars run fill ~-22 224 ~-22 ~22 239 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced16 vars run fill ~-22 240 ~-22 ~22 255 ~22 minecraft:air replace minecraft:wither_rose
+execute store result score #blocks_replaced17 vars run fill ~-22 0 ~-22 ~22 15 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced18 vars run fill ~-22 16 ~-22 ~22 31 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced19 vars run fill ~-22 32 ~-22 ~22 47 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced20 vars run fill ~-22 48 ~-22 ~22 63 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced21 vars run fill ~-22 64 ~-22 ~22 79 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced22 vars run fill ~-22 80 ~-22 ~22 95 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced23 vars run fill ~-22 96 ~-22 ~22 111 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced24 vars run fill ~-22 112 ~-22 ~22 127 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced25 vars run fill ~-22 128 ~-22 ~22 143 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced26 vars run fill ~-22 144 ~-22 ~22 159 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced27 vars run fill ~-22 160 ~-22 ~22 175 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced28 vars run fill ~-22 176 ~-22 ~22 191 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced29 vars run fill ~-22 192 ~-22 ~22 207 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced30 vars run fill ~-22 208 ~-22 ~22 223 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced31 vars run fill ~-22 224 ~-22 ~22 239 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_replaced32 vars run fill ~-22 240 ~-22 ~22 255 ~22 flower_pot replace minecraft:potted_wither_rose
+execute store result score #blocks_cleared vars run clear @a minecraft:wither_rose
+
+# If block not replaced, summon some
+scoreboard players operation #curr_block_spawning_density vars = #block_spawning_density vars
+execute if score #blocks_killed1 vars matches 0 if score #blocks_killed2 vars matches 0 if score #blocks_replaced1 vars matches 0 if score #blocks_replaced2 vars matches 0 if score #blocks_replaced3 vars matches 0 if score #blocks_replaced4 vars matches 0 if score #blocks_replaced5 vars matches 0 if score #blocks_replaced6 vars matches 0 if score #blocks_replaced7 vars matches 0 if score #blocks_replaced8 vars matches 0 if score #blocks_replaced9 vars matches 0 if score #blocks_replaced10 vars matches 0 if score #blocks_replaced11 vars matches 0 if score #blocks_replaced12 vars matches 0 if score #blocks_replaced13 vars matches 0 if score #blocks_replaced14 vars matches 0 if score #blocks_replaced15 vars matches 0 if score #blocks_replaced16 vars matches 0 if score #blocks_replaced17 vars matches 0 if score #blocks_replaced18 vars matches 0 if score #blocks_replaced19 vars matches 0 if score #blocks_replaced20 vars matches 0 if score #blocks_replaced21 vars matches 0 if score #blocks_replaced22 vars matches 0 if score #blocks_replaced23 vars matches 0 if score #blocks_replaced24 vars matches 0 if score #blocks_replaced25 vars matches 0 if score #blocks_replaced26 vars matches 0 if score #blocks_replaced27 vars matches 0 if score #blocks_replaced28 vars matches 0 if score #blocks_replaced29 vars matches 0 if score #blocks_replaced30 vars matches 0 if score #blocks_replaced31 vars matches 0 if score #blocks_replaced32 vars matches 0 if score #blocks_cleared vars matches 0 run schedule function wordsmith:detect/block/wither_rose2 1t

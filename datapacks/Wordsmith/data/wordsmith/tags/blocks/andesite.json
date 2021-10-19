@@ -1,0 +1,10 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:andesite",
+		"minecraft:andesite_wall",
+		"minecraft:andesite_stairs",
+		"minecraft:andesite_slab",
+		"#wordsmith:polished_andesite"
+	]
+}
