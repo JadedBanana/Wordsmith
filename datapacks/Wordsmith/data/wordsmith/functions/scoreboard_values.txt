@@ -111,6 +111,7 @@ Mid-Word Detection:
 	#potions_cleared{}: Stores how many potions have been cleared from player inventories.
 	#effects_cleared: Stores how many potion effects have been cleared from entities.
 	#entities_killed{}: Stores how many entities have been teleported to y=-500.
+	#group_blocks_deleted: Stores whether or not blocks have been deleted in the group function.
 	#time_query: Stores what time it is on the server.
 	#day_query: Stores what day it is on the server.
 	#spreaded_armor_stands: Stores how many armor stands are spreaded throughout the area (when spawning in stuff).

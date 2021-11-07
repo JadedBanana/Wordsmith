@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:acacia_sapling",
+		"minecraft:acacia_door",
+		"minecraft:acacia_trapdoor",
+		"minecraft:acacia_leaves",
+		"#wordsmith:acacia_planks",
+		"#wordsmith:acacia_log",
+		"#wordsmith:acacia_wood"
+	]
+}

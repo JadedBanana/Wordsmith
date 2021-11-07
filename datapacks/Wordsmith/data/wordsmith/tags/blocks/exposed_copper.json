@@ -1,0 +1,8 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:exposed_copper",
+		"minecraft:waxed_exposed_copper",
+		"#wordsmith:exposed_cut_copper"
+	]
+}

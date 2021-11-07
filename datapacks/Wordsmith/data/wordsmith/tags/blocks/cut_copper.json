@@ -1,0 +1,12 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:cut_copper",
+		"minecraft:weathered_cut_copper",
+		"minecraft:exposed_cut_copper",
+		"minecraft:oxidized_cut_copper",
+		"#wordsmith:waxed_cut_copper",
+		"#wordsmith:cut_copper_slab",
+		"#wordsmith:cut_copper_stairs"
+	]
+}
