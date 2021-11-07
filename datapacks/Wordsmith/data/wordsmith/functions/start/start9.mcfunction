@@ -12,11 +12,12 @@ gamerule doDaylightCycle true
 gamerule doWeatherCycle true
 gamerule keepInventory false
 
-# Set players' gamemodes to survival
+# Set players' gamemodes to survival, remove effects
 gamemode survival @a[team=Red]
 gamemode survival @a[team=Blue]
 gamemode survival @a[team=Green]
 gamemode survival @a[team=Yellow]
+effect clear @a
 
 # Remove all barriers
 fill ~8 ~-20 ~8 ~-8 ~30 ~-8 air replace barrier
@@ -28,4 +29,5 @@ execute as @a at @s run playsound minecraft:block.note_block.chime voice @s ~ ~ 
 execute as @a at @s run playsound minecraft:block.note_block.chime voice @s ~ ~ ~ 1 2
 
 # Schedule next
+scoreboard players set #game_begun vars 1
 schedule function wordsmith:start/start10 70t

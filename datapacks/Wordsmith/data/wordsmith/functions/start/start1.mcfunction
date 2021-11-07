@@ -53,6 +53,7 @@ scoreboard players set #game_time vars 0
 scoreboard players set #turn_time vars 0
 scoreboard players set #team_turn vars -1
 scoreboard players set #game_stage vars 0
+scoreboard players set #game_begun vars 0
 scoreboard players set #required_letter vars 0
 scoreboard players set #permutation_step vars -1
 scoreboard players set #team_permutation vars 0
