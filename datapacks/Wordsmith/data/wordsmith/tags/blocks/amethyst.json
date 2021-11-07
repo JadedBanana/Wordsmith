@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:amethyst_block",
+		"minecraft:amethyst_cluster",
+		"minecraft:budding_amethyst",
+		"#wordsmith:amethyst_bud"
+	]
+}

@@ -29,4 +29,8 @@ execute store result score #blocks_replaced15 vars run fill ~-22 224 ~-22 ~22 23
 execute store result score #blocks_replaced16 vars run fill ~-22 240 ~-22 ~22 255 ~22 air replace #wordsmith:dirt
 
 # Clear command
-execute store result score #blocks_cleared vars run clear @a[scores={deaths=0}] #wordsmith:sponge
+execute store result score #blocks_cleared vars run clear @a[scores={deaths=0}] #wordsmith:dirt_blocklist
+
+# Set scoreboard value of whether or not blocks were deleted
+scoreboard players set #group_blocks_deleted vars 1
+execute if score # blocks_killed1 vars matches 0 if score # blocks_killed2 vars matches 0 if score # blocks_killed3 vars matches 0 if score # blocks_killed4 vars matches 0 if score # blocks_killed5 vars matches 0 if score # blocks_killed6 vars matches 0 if score # blocks_killed7 vars matches 0 if score # blocks_killed8 vars matches 0 if score # blocks_killed9 vars matches 0 if score # blocks_killed10 vars matches 0 if score #blocks_replaced1 vars matches 0 if score #blocks_replaced2 vars matches 0 if score #blocks_replaced3 vars matches 0 if score #blocks_replaced4 vars matches 0 if score #blocks_replaced5 vars matches 0 if score #blocks_replaced6 vars matches 0 if score #blocks_replaced7 vars matches 0 if score #blocks_replaced8 vars matches 0 if score #blocks_replaced9 vars matches 0 if score #blocks_replaced10 vars matches 0 if score #blocks_replaced11 vars matches 0 if score #blocks_replaced12 vars matches 0 if score #blocks_replaced13 vars matches 0 if score #blocks_replaced14 vars matches 0 if score #blocks_replaced15 vars matches 0 if score #blocks_replaced16 vars matches 0 if score #blocks_cleared vars matches 0 run scoreboard players set #group_blocks_deleted vars 0

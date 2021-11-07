@@ -1,0 +1,7 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:waxed_oxidized_copper",
+		"#wordsmith:waxed_oxidized_cut_copper"
+	]
+}

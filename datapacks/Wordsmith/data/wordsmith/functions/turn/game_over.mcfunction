@@ -6,8 +6,9 @@ time set day
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 
-# Clear titles
+# Clear titles + effects
 title @a clear
+effect clear @a
 
 # Set worldborder
 worldborder set 59999968
