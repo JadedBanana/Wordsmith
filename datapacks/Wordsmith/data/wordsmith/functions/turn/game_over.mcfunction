@@ -8,6 +8,7 @@ gamerule doWeatherCycle false
 
 # Clear titles + effects
 title @a clear
+title @a actionbar ""
 effect clear @a
 
 # Set worldborder
