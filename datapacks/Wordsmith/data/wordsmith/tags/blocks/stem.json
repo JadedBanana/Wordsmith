@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:crimson_stem",
+		"minecraft:warped_stem",
+		"minecraft:mushroom_stem",
+		"#wordsmith:stripped_stem"
+	]
+}

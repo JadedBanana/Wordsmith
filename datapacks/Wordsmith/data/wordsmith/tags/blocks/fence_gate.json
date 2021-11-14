@@ -1,0 +1,13 @@
+{
+    "replace": "false",
+    "values": [
+        "#wordsmith:oak_fence_gate",
+        "#wordsmith:spruce_fence_gate",
+        "#wordsmith:birch_fence_gate",
+        "#wordsmith:jungle_fence_gate",
+        "#wordsmith:acacia_fence_gate",
+        "#wordsmith:dark_oak_fence_gate",
+        "#wordsmith:crimson_fence_gate",
+        "#wordsmith:warped_fence_gate"
+    ]
+}
