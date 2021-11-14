@@ -20,7 +20,7 @@ gamemode survival @a[team=Yellow]
 effect clear @a
 
 # Remove all barriers
-fill ~8 ~-20 ~8 ~-8 ~30 ~-8 air replace barrier
+fill ~9 ~-20 ~9 ~-9 ~30 ~-9 air replace barrier
 
 # Do the title
 title @a times 0 40 20
