@@ -5,7 +5,7 @@ execute if score #turn_time_div20 vars matches -1 run scoreboard players set #tu
 
 # If deaths not initialized for players, initialize
 execute as @a unless score @s deaths matches 0.. run scoreboard players set @s deaths 0
-execute as @a[scores={deaths=1},nbt={abilities:{mayfly:0b}}] run function wordsmith:turn/react_to_death
+execute as @a[scores={deaths=1..},nbt={abilities:{mayfly:0b}}] run function wordsmith:turn/react_to_death
 
 # Do team-specific tick functions
 execute if score #team_turn vars matches 0 run function wordsmith:turn/red_tick
