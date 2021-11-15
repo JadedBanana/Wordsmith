@@ -10,7 +10,7 @@ execute if entity @s[team=Green] run tellraw @a {"selector":"@s","color":"green"
 execute if entity @s[team=Yellow] run tellraw @a {"selector":"@s","color":"yellow","extra":[{"text":" submitted a word: "},{"text":"slab","bold":true}]}
 
 # Run appropriate function
-function wordsmith:detect/blanket/slabs
+function wordsmith:detect/blanket/slab
 
 # Run the function that ends turns
 function wordsmith:turn/end_turn_word_get

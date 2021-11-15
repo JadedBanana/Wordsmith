@@ -10,8 +10,7 @@ execute if entity @s[team=Green] run tellraw @a {"selector":"@s","color":"green"
 execute if entity @s[team=Yellow] run tellraw @a {"selector":"@s","color":"yellow","extra":[{"text":" submitted a word: "},{"text":"cauldron","bold":true}]}
 
 # Run appropriate function
-execute if score #word_execution_function vars matches 2 run function wordsmith:detect/item/cauldron
-execute if score #word_execution_function vars matches 1 run function wordsmith:detect/block/cauldron
+function wordsmith:detect/block/cauldron
 
 # Run the function that ends turns
 function wordsmith:turn/end_turn_word_get

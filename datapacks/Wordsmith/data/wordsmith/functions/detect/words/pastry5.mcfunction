@@ -12,7 +12,7 @@ execute if entity @s[team=Yellow] run tellraw @a {"selector":"@s","color":"yello
 # Run appropriate function
 execute if score #word_execution_function vars matches 3 run function wordsmith:detect/blanket/pastry3
 execute if score #word_execution_function vars matches 2 run function wordsmith:detect/blanket/pastry2
-execute if score #word_execution_function vars matches 1 run function wordsmith:detect/blanket/pastry1
+execute if score #word_execution_function vars matches 1 run function wordsmith:detect/blanket/pastry
 
 # Run the function that ends turns
 function wordsmith:turn/end_turn_word_get
