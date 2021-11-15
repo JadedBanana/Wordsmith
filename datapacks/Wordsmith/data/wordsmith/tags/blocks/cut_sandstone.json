@@ -1,0 +1,8 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:cut_sandstone",
+		"#wordsmith:cut_red_sandstone",
+		"minecraft:cut_sandstone_slab"
+	]
+}

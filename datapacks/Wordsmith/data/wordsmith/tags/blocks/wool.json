@@ -1,0 +1,21 @@
+{
+	"replace": "false",
+	"values": [
+		"#wordsmith:white_wool",
+		"#wordsmith:orange_wool",
+		"#wordsmith:magenta_wool",
+		"#wordsmith:light_blue_wool",
+		"#wordsmith:yellow_wool",
+		"#wordsmith:lime_wool",
+		"#wordsmith:pink_wool",
+		"#wordsmith:gray_wool",
+		"#wordsmith:light_gray_wool",
+		"#wordsmith:cyan_wool",
+		"#wordsmith:purple_wool",
+		"#wordsmith:blue_wool",
+		"#wordsmith:brown_wool",
+		"#wordsmith:green_wool",
+		"#wordsmith:red_wool",
+		"#wordsmith:black_wool"
+	]
+}

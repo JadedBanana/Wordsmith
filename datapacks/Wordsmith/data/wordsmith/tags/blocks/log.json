@@ -1,0 +1,11 @@
+{
+    "replace": "false",
+    "values": [
+        "#wordsmith:oak_log",
+        "#wordsmith:spruce_log",
+        "#wordsmith:birch_log",
+        "#wordsmith:jungle_log",
+        "#wordsmith:acacia_log",
+        "#wordsmith:dark_oak_log"
+    ]
+}

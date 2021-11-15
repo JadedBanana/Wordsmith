@@ -1,0 +1,8 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:crimson_hyphae",
+		"minecraft:warped_hyphae",
+		"#wordsmith:stripped_hyphae"
+	]
+}

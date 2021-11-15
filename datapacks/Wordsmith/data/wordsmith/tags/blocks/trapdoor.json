@@ -1,0 +1,7 @@
+{
+    "replace": "false",
+    "values": [
+        "#wordsmith:wooden_trapdoor"
+		"minecraft:iron_trapdoor"
+    ]
+}
