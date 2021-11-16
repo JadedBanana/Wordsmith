@@ -2,6 +2,7 @@
     "replace": "false",
     "values": [
 		"minecraft:stone_pressure_plate",
+		"minecraft:polished_blackstone_pressure_plate",
         "#wordsmith:weighted_pressure_plate",
         "#wordsmith:wooden_pressure_plate"
     ]

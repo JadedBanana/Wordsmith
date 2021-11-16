@@ -1,0 +1,9 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:glass",
+		"minecraft:glass_pane",
+		"minecraft:tinted_glass",
+		"#wordsmith:stained_glass"
+	]
+}

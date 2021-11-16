@@ -1,0 +1,11 @@
+{
+	"replace": "false",
+	"values": [
+		"#wordsmith:polished_blackstone",
+		"minecraft:blackstone",
+		"minecraft:blackstone_slab",
+		"minecraft:blackstone_stairs",
+		"minecraft:blackstone_wall",
+		"minecraft:gilded_blackstone"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": "false",
+	"values": [
+		"#wordsmith:tube_coral_block",
+		"#wordsmith:brain_coral_block",
+		"#wordsmith:horn_coral_block",
+		"#wordsmith:bubble_coral_block",
+		"#wordsmith:fire_coral_block"
+	]
+}

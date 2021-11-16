@@ -1,0 +1,8 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:sandstone_stairs",
+		"minecraft:red_sandstone_stairs",
+		"#wordsmith:smooth_sandstone_stairs"
+	]
+}

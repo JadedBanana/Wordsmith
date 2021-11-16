@@ -1,0 +1,13 @@
+{
+	"replace": "false",
+	"values": [
+		"#wordsmith:coal_ore",
+		"#wordsmith:copper_ore",
+		"#wordsmith:gold_ore",
+		"#wordsmith:iron_ore",
+		"#wordsmith:diamond_ore",
+		"#wordsmith:redstone_ore",
+		"#wordsmith:lapis_ore",
+		"#wordsmith:emerald_ore"
+	]
+}
